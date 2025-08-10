@@ -3,7 +3,7 @@ import Header from './components/common/Header';
 
 const App: React.FC = () => {
   useEffect(() => {
-    document.title = 'Bluitt Law Firm';
+    document.title = 'Blob Law Firm';
   }, []);
 
   return (

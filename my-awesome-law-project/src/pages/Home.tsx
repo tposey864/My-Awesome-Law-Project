@@ -5,7 +5,7 @@ import Testimonials from '../components/home/Testimonials';
 
 const Home: React.FC = () => (
   <main>
-    <HeroBanner title="Bluitt Law Firm" subtitle="Legal Experts" />
+    <HeroBanner title="Blob Law Firm" subtitle="Legal Experts" />
     <PracticeAreas />
     <Testimonials />
   </main>

@@ -1,6 +1,6 @@
 # My Awesome Law Project
 
-This is a rebuild project inspired by the Bluitt Law Firm website, using **React + TypeScript**, styled with **Tailwind CSS**, and tested with **Jest** (unit tests) and **Playwright** (end-to-end tests).
+This is a rebuild project inspired by the Blob Law Firm website, using **React + TypeScript**, styled with **Tailwind CSS**, and tested with **Jest** (unit tests) and **Playwright** (end-to-end tests).
 The goal is to practice modern frontend development, improve testing skills, and create a deployable web application.
 
 ## 🚀 Tech Stack
@@ -16,7 +16,7 @@ The goal is to practice modern frontend development, improve testing skills, and
 
 ## 📦 Project Structure
 
-bluitt-law-firm/
+blob-law-firm/
 │
 ├── public/
 │   ├── index.html
@@ -133,8 +133,8 @@ import { render, screen } from '@testing-library/react';
 import HeroBanner from '../../src/components/home/HeroBanner';
 
 test('renders hero banner title', () => {
-  render(<HeroBanner title="Bluitt Law Firm" subtitle="Legal Experts" />);
-  expect(screen.getByText(/Bluitt Law Firm/i)).toBeInTheDocument();
+  render(<HeroBanner title="Blob Law Firm" subtitle="Legal Experts" />);
+  expect(screen.getByText(/Blob Law Firm/i)).toBeInTheDocument();
 });
 ```
 
@@ -145,7 +145,7 @@ import { test, expect } from '@playwright/test';
 
 test('homepage has title', async ({ page }) => {
   await page.goto('http://localhost:3000/');
-  await expect(page).toHaveTitle(/Bluitt Law Firm/);
+  await expect(page).toHaveTitle(/Blob Law Firm/);
 });
 ```
 

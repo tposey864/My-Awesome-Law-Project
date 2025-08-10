@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header: React.FC = () => (
   <header className="bg-blue-900 text-white p-4">
-    <h1 className="text-2xl font-bold">Bluitt Law Firm</h1>
+    <h1 className="text-2xl font-bold">Blob Law Firm</h1>
   </header>
 );
 
